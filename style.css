@@ -1,0 +1,149 @@
+/* style.css */
+
+/* UNDERSTANDING CSS BOILERCODE / BOILERPLATE: */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* UNDEERSTANDING WIDTH, HEIGHT:     */
+
+/* #main{
+    width: 50%;
+    height: 50%;
+    background-color: black ;
+} */
+
+/* UNDEERSTANDING UNITS, PX AND %: */
+
+/* #main{
+    width: 100px;
+    height: 100px;
+    background-color: black ;
+} */
+
+/* UNDEERSTANDING MARGIN & PADDING: */
+
+/* #main{
+    width: 50%;
+    height: 50%;
+    background-color: black;
+    color: aliceblue;
+    margin: 50px; 
+    padding: 50px; 
+} */
+    /*  
+    Margin = Outside Borde
+    Boder = Outline
+    Padding = Inside Borde
+    */
+
+/* UNDEERSTANDING BACKGROUND IMAGE AND THINGS RELATED TO IT: */
+
+/* #main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url(IRON\ MAN.jpg);
+    background-size: cover;
+    background-position: center;
+} */
+
+/* UNDEERSTANDING POSITION ABSOLUTE: */
+
+/* #car1{
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    background-color: pink;
+}
+#car2{
+    width: 20%;
+    height: 20%;
+    background-color: orange;
+}
+#car3{
+    width: 30%;
+    height: 20%;
+    background-color: olivedrab;
+} */
+
+/* 
+position = absolute : hone pe car1 upper uth gai our car2 &car3 upper aa gai
+now we can move car1 any whare using
+
+top : 50%; 
+left : 50%;
+
+layer me uthenge cars
+1> car1
+2> car1 ke upper car2
+3> car2 ke upper car3
+ */
+
+ /* UNDEERSTANDING POSITION RELATIVE: */
+
+/* #box1{
+    position: relative;    
+    width: 50%;
+    height: 50%;
+    background-color: black;
+}
+#box2{
+    position: absolute;
+    left: 50%;
+    width: 30%;
+    height: 30%;
+    background-color: white;
+} */
+/* 
+parent ke respect me value set kar sakte hai.
+agar apne kisi id ko absolute kiya hai to usi vakt vo relativ ka bhi kam kar raha hota hai.
+*/
+
+
+/* UNDEERSTANDING FLEXBOX: */
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 60%;
+    background-color: black;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: wheat;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: palegreen;
+}
+
+/* 
+VALUES BY DEFAULT IN COLUMN VISE {VERTICAL} {HEIGHT}= ALIGN ITEM
+PARENT DISPLAY = FLEX
+NOW VALUSE SEEMS IN ROW VISE {HORIZONTAL} {WIDTH} = JUSTIFY CONTENT
+
+width:
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+
+height:
+    align-items: center;
+    align-items: space-around;
+    align-items: space-between;
+*/
